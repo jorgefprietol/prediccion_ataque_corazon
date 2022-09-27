@@ -20,9 +20,6 @@ Our application will feature a :
 * Data Ingestion job using Airflow to collect our data based on the user inputs.
 * Prediction monitoring dashboard using Gafana
 
-## Dataset: 
-* 11 clinical features for predicting stroke events:<br>
-https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset</br>
 
 ## Postgres Database Setup :
 
@@ -52,8 +49,6 @@ BACKEND_SERVER =[Server]
 [Grafana Repo - README.md](https://github.com/ibrahim-Sobh/heart_stroke_grafana#readme)<br>
 [Link to Grafana](https://grafa-stroke.herokuapp.com/d/LDFHt43nk/feature-monitoring?orgId=1)</br>
 
-## Heroku  Streamlit 
-[Link to Web Interface](http://35.238.16.200:8501/)
 
 ## Execute Program Locally:
 
@@ -62,4 +57,4 @@ BACKEND_SERVER =[Server]
 2. streamlit run web_interface.py --server.port 8010;
 
 ## System Architecture: :bricks:
-![Screenshot 2022-04-27 at 6 56 27 PM](DSP.drawio.png)
+![Screenshot 2021-01-04](DSP.drawio.png)
